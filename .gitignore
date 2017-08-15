@@ -1,0 +1,8 @@
+node_modules
+spec-js
+dist
+*.log
+coverage
+.nyc_output
+.awcache
+.happypack

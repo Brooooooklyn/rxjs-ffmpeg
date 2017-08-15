@@ -1,0 +1,65 @@
+{
+  "name": "rxjs-ffmpeg",
+  "version": "0.0.0",
+  "description": "ffmpeg web worker & RxJS binding",
+  "main": "index.js",
+  "scripts": {
+    "copy:ffmpeg": "mkdir -p dist && cp -r node_modules/ffmpeg.js dist/",
+    "start": "yarn && yarn copy:ffmpeg && webpack-dev-server --progress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brooooooklyn/rxjs-ffmpeg.git"
+  },
+  "keywords": [
+    "RxJS",
+    "ffmpeg",
+    "ffmpeg.js",
+    "TypeScript",
+    "Web",
+    "Worker"
+  ],
+  "author": "lynweklm@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Brooooooklyn/rxjs-ffmpeg/issues"
+  },
+  "homepage": "https://github.com/Brooooooklyn/rxjs-ffmpeg#readme",
+  "devDependencies": {
+    "@types/lodash": "^4.14.72",
+    "@types/react": "^16.0.2",
+    "@types/react-dom": "^15.5.2",
+    "@types/react-hot-loader": "^3.0.3",
+    "@types/react-redux": "^5.0.2",
+    "@types/react-router": "^4.0.14",
+    "@types/react-router-redux": "^5.0.6",
+    "@types/redux-actions": "^1.2.8",
+    "antd": "^2.12.6",
+    "fork-ts-checker-webpack-plugin": "^0.2.7",
+    "html-webpack-plugin": "^2.30.1",
+    "lodash": "^4.17.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-hot-loader": "3.0.0-beta.7",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.1.2",
+    "react-router-redux": "next",
+    "redux-actions": "^2.2.1",
+    "redux-observable": "^0.15.0",
+    "source-map-loader": "^0.2.1",
+    "ts-loader": "^2.3.2",
+    "tslint": "^5.6.0",
+    "tslint-eslint-rules": "^4.1.1",
+    "tslint-react": "^3.2.0",
+    "typescript": "^2.4.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.5.4",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "dependencies": {
+    "ffmpeg.js": "^3.1.9001",
+    "rxjs": "^5.4.3",
+    "tslib": "^1.7.1"
+  }
+}
